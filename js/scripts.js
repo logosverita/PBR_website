@@ -97,52 +97,24 @@
 		}
     });
 
-    
     /* Details Lightbox - Magnific Popup */
-    $('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
-		fixedContentPos: true,
-		fixedBgPos: true,
-		overflowY: 'auto',
-		closeBtnInside: true,
-		preloader: false,
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-    });
-    
-
-    /* Video Lightbox - Magnific Popup */
-    $('.popup-youtube, .popup-vimeo').magnificPopup({
-        disableOn: 0,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false,
-        iframe: {
-            patterns: {
-                youtube: {
-                    index: 'youtube.com/', 
-                    id: function(url) {        
-                        var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
-                        if ( !m || !m[1] ) return null;
-                        return m[1];
-                    },
-                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
-                },
-                vimeo: {
-                    index: 'vimeo.com/', 
-                    id: function(url) {        
-                        var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
-                        if ( !m || !m[5] ) return null;
-                        return m[5];
-                    },
-                    src: 'https://player.vimeo.com/video/%id%?autoplay=1'
-                }
-            }
-        }
-    });
+    $('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
 
 
     /* Move Form Fields Label When User Types */
