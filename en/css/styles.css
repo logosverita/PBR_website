@@ -673,6 +673,8 @@ input[type='checkbox'] {
 	margin-left: auto;
 }
 
+
+
 .cards-1 .card-body {
 	padding: 0;
 }
@@ -685,7 +687,48 @@ input[type='checkbox'] {
 	margin-bottom: 0;
 }
 
+/**********************/
+/*    Add orign       */
+/**********************/
+.card-image_tag {
+	width: 5.5rem;
+    height: 5.5rem;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #0984e3, #007bffd6);
+}
 
+.fas2{
+	color: #ffffff;
+    font-size: 2rem;
+	padding-left: 2rem;
+    line-height: 5.5rem;
+}
+.card-title3 {
+	font-weight: 600;
+	font-size: 1.1rem;
+	margin-bottom: 4px;
+}
+.wrap {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.left {
+	flex-basis:calc((100% - 40px) / 2);
+	max-width:calc((100% - 40px) / 2);
+	margin-top:20px;
+	padding-left: 16px;
+}
+.right {
+	flex-basis:calc((100% - 40px) / 2);
+	max-width:calc((100% - 40px) / 2);
+	margin-top:20px;
+	padding-left: 16px;
+
+}
 /********************/
 /*     Features     */
 /********************/
@@ -1282,13 +1325,13 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #7461ff url("../images/up-arrow.png") no-repeat center 47%;
+	background: #007bff url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #4d3dc4;
+	background-color: #007bff;
 }
 
 
