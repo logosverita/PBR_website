@@ -727,7 +727,27 @@ input[type='checkbox'] {
 	max-width:calc((100% - 40px) / 2);
 	margin-top:20px;
 	padding-left: 16px;
+}
+h5 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
 
+.lang-lists {
+	display: inline-flex;
+	width: 100%;
+}
+.langs {
+	padding-right: 20px;
+}
+.langs-right {
+	margin-left: auto;
+	font-size: 0.8rem;
+}
+.download-word {
+	margin-bottom: 4px;
 }
 /********************/
 /*     Features     */
