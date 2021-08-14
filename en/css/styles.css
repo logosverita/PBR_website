@@ -746,8 +746,25 @@ h5 {
 	margin-left: auto;
 	font-size: 0.8rem;
 }
-.download-word {
+.fottter-word {
+	display: block;
 	margin-bottom: 4px;
+}
+.fottter-list {
+	display: inline-grid;
+}
+
+.terms-box {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.dl {
+	padding-left: 36px;
+}
+
+.end {
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 /********************/
 /*     Features     */
