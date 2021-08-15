@@ -755,16 +755,152 @@ h5 {
 }
 
 .terms-box {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 16%;
+	margin-right: 16%;
 }
 .dl {
 	padding-left: 36px;
+}
+.dl2 {
+	padding-left: 72px;
 }
 
 .end {
 	padding-top: 16px;
 	padding-bottom: 16px;
+}
+
+.mgn-t {
+	margin-top: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.frequency2 {
+	padding-bottom: 32px;
+	font-weight: 700;
+}
+
+.patron_bundle {
+	display: inline-block;
+}
+.bundle_windows {
+	vertical-align: sub;
+}
+
+.header2 {
+	position: relative;
+	overflow: hidden;
+	padding-top: 9rem;
+	padding-bottom: 2rem;
+	background-color: #0984E3;
+	text-align: center;
+}
+
+.header2 .text-container {
+	margin-bottom: 3rem;
+}
+
+.header2 h1 {
+	margin-bottom: 1rem;
+	color: #ffffff;
+}
+
+.header2 .p-large {
+	margin-bottom: 2.125rem;
+	color: #ffffff;
+}
+
+.cards-3 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.cards-3 .section-title {
+	text-align: center;
+}
+
+.cards-3 .h2-heading {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.cards-3 .card {
+	max-width: 330px;
+	margin-right: auto;
+	margin-bottom: 5rem;
+	margin-left: auto;
+	border: 2px solid #e4e7fc;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.cards-3 .card .card-body {
+	padding: 3rem 1.625rem 3.25rem 1.625rem;
+}
+
+.cards-3 .card .card-title {
+	margin-bottom: 0.75rem;
+	color: #2b44ff;
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 1.25rem;
+}
+
+.cards-3 .card .value {
+	color: #2f363b;
+	font-weight: 700;
+	font-size: 3.25rem;
+	line-height: 3.5rem;
+}
+
+.cards-3 .card .currency {
+	margin-right: 0.25rem;
+	color: #2f363b;
+	font-size: 1.375rem;
+	vertical-align: 50%;
+}
+
+.cards-3 .card .frequency {
+	margin-bottom: 2rem;
+	font-size: 0.875rem;
+}
+
+.cards-3 .card .cell-divide-hr {
+	height: 2px;
+	margin-top: 0;
+	margin-bottom: 2.25rem;
+	border: none;
+	background-color: #e4e7fc;
+}
+
+.cards-3 .card .list-unstyled {
+	margin-bottom: 1.75rem;
+	text-align: left;
+}
+
+.cards-3 .card .list-unstyled li {
+	margin-bottom: 0.5rem;
+}
+
+.cards-3 .card .list-unstyled .fas {
+	color: #2b44ff;
+	font-size: 0.75rem;
+	line-height: 1.625rem;
+}
+
+.cards-3 .card .list-unstyled .fas.fa-times {
+	color: #828286;
+}
+
+.cards-3 .card .list-unstyled .media-body {
+	margin-left: 0.5rem;
+}
+
+.p-heading2 {
+	margin-bottom: 2rem;
 }
 /********************/
 /*     Features     */
