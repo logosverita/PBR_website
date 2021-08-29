@@ -700,6 +700,10 @@ input[type='checkbox'] {
     background: linear-gradient(to bottom right, #0984e3, #007bffd6);
 }
 
+.card-title {
+	color:#0984E3
+}
+
 .fas2{
 	color: #ffffff;
     font-size: 2rem;
@@ -738,6 +742,11 @@ h5 {
 .lang-lists {
 	display: inline-flex;
 	width: 100%;
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 .langs {
 	padding-right: 20px;
